@@ -1,0 +1,15 @@
+/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/bin/Debug/netstandard2.0/MovieInfo.deps.json
+/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/bin/Debug/netstandard2.0/MovieInfo.dll
+/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/bin/Debug/netstandard2.0/ref/MovieInfo.dll
+/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/bin/Debug/netstandard2.0/MovieInfo.pdb
+/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/obj/Debug/netstandard2.0/MovieInfo.csproj.AssemblyReference.cache
+/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/obj/Debug/netstandard2.0/MovieInfo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/obj/Debug/netstandard2.0/MovieInfo.AssemblyInfoInputs.cache
+/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/obj/Debug/netstandard2.0/MovieInfo.AssemblyInfo.cs
+/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/obj/Debug/netstandard2.0/MovieInfo.csproj.CoreCompileInputs.cache
+/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/obj/Debug/netstandard2.0/MovieInfo.dll
+/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/obj/Debug/netstandard2.0/ref/MovieInfo.dll
+/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/obj/Debug/netstandard2.0/MovieInfo.pdb
