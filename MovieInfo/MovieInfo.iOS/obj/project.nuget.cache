@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1jicWvoNGYk68Hk/C9uwKJKeocX044DOiIkboGi6QOOHnvWtmNwyUWSlpDXHmw2mkaEmomYWV7ARhKfbsjpkmA==",
+  "dgSpecHash": "+qbWFBw9endd9Hv3pWLCoklNLdATHUrLur33Etdz4JcMh7Wn03GkP5Fy2VWMIrV/fs5NyD3sY3VY/v6TSKo7Sg==",
   "success": true,
-  "projectFilePath": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo.iOS/MovieInfo.iOS.csproj",
+  "projectFilePath": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/MovieInfo/MovieInfo.iOS/MovieInfo.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/andrewpatterson/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/andrewpatterson/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "4ygQi0K+DcB0nmXBvTjx5x4x51S5qRw+bJ6J7Sh2Jmav8IXMMt/Wa6X6vV/ItZwgJoWNPfqyhYxoXubdyDt2Og==",
+  "success": true,
+  "projectFilePath": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/SignInSignUp/SignInSignUp/SignInSignUp.csproj",
+  "expectedPackageFiles": [
+    "/Users/andrewpatterson/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/andrewpatterson/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/andrewpatterson/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/andrewpatterson/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/andrewpatterson/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

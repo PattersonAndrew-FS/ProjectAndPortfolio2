@@ -5,11 +5,11 @@
       <File FileName="MovieInfo/App.xaml" Line="1" Column="1" />
       <File FileName="MovieInfo/AssemblyInfo.cs" Line="1" Column="1" />
       <File FileName="MovieInfo/MainPage.xaml" Line="12" Column="32" />
-      <File FileName="MovieInfo/MainPage.xaml.cs" Line="25" Column="1" />
-      <File FileName="MovieInfo/ApiConnect.cs" Line="20" Column="1" />
-      <File FileName="MovieInfo/Search.cs" Line="10" Column="43" />
-      <File FileName="MovieInfo/SearchResult.cs" Line="2" Column="34" />
-      <File FileName="MovieInfo.Android/Properties/AssemblyInfo.cs" Line="31" Column="52" />
+      <File FileName="MovieInfo/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="MovieInfo/ApiConnect.cs" />
+      <File FileName="MovieInfo/Search.cs" />
+      <File FileName="MovieInfo/SearchResult.cs" />
+      <File FileName="MovieInfo.Android/Properties/AssemblyInfo.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

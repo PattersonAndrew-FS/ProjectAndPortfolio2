@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/MovieInfo.csproj": {}
+    "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/MovieInfo/MovieInfo/MovieInfo.csproj": {}
   },
   "projects": {
-    "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/MovieInfo.csproj": {
+    "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/MovieInfo/MovieInfo/MovieInfo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/MovieInfo.csproj",
+        "projectUniqueName": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/MovieInfo/MovieInfo/MovieInfo.csproj",
         "projectName": "MovieInfo",
-        "projectPath": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/MovieInfo.csproj",
+        "projectPath": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/MovieInfo/MovieInfo/MovieInfo.csproj",
         "packagesPath": "/Users/andrewpatterson/.nuget/packages/",
-        "outputPath": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/obj/",
+        "outputPath": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/MovieInfo/MovieInfo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/andrewpatterson/.config/NuGet/NuGet.Config"

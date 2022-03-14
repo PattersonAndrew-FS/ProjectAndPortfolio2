@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HBGJk++mkAru3+/Df/6dxCb8gfURdTDB6xBqiHPURZu7oMMA6V4CHlMbCLsG4oNqe9dcHJAkQ9xK/tEBivhEPw==",
+  "dgSpecHash": "EoPhLVIm/PRNn5j5RSITpzVajdbxrxywlV1sljwXD4UvhW9X0JP4oUCa3biJzBteIFEOqtTNoN/iQQ1GLdxSIw==",
   "success": true,
-  "projectFilePath": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/MovieInfo.csproj",
+  "projectFilePath": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/MovieInfo/MovieInfo/MovieInfo.csproj",
   "expectedPackageFiles": [
     "/Users/andrewpatterson/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/andrewpatterson/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",

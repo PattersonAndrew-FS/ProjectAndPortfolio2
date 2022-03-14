@@ -2184,11 +2184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo.Android/MovieInfo.Android.csproj",
+      "projectUniqueName": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/MovieInfo/MovieInfo.Android/MovieInfo.Android.csproj",
       "projectName": "MovieInfo.Android",
-      "projectPath": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo.Android/MovieInfo.Android.csproj",
+      "projectPath": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/MovieInfo/MovieInfo.Android/MovieInfo.Android.csproj",
       "packagesPath": "/Users/andrewpatterson/.nuget/packages/",
-      "outputPath": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo.Android/obj/",
+      "outputPath": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/MovieInfo/MovieInfo.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2203,8 +2203,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/MovieInfo.csproj": {
-              "projectPath": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/MovieInfo/MovieInfo/MovieInfo.csproj"
+            "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/MovieInfo/MovieInfo/MovieInfo.csproj": {
+              "projectPath": "/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/MovieInfo/MovieInfo/MovieInfo.csproj"
             }
           }
         }

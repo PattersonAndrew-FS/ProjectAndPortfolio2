@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{25F6D6F3-A258-47F3-808B-0367D1DE64B8}|Default">
+  <MonoDevelop.Ide.ItemProperties.SignInSignUp.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SignInSignUp/RegisterPage.xaml">
+    <Files>
+      <File FileName="SignInSignUp/MainPage.xaml" Line="11" Column="2" />
+      <File FileName="SignInSignUp/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="SignInSignUp/RegisterPage.xaml" Line="22" Column="88" />
+      <File FileName="SignInSignUp/RegisterPage.xaml.cs" Line="91" Column="59" />
+      <File FileName="SignInSignUp/App.xaml.cs" Line="13" Column="63" />
+      <File FileName="SignInSignUp/SignInSignUpService.cs" Line="13" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SignInSignUp" expanded="True">
+            <Node name="SignInSignUp" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="RegisterPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SignInSignUp.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
