@@ -16,9 +16,9 @@ namespace SignInSignUp
             signIn.Clicked += SignIn_Clicked;
         }
 
-        private void SignIn_Clicked(object sender, EventArgs e)
+        private async void SignIn_Clicked(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            await Navigation.PushAsync(new LoginPage());
         }
 
         private async void SignUp_Clicked(object sender, EventArgs e)
@@ -38,7 +38,11 @@ namespace SignInSignUp
                 await DisplayAlert("Email is taken", "This email is taken, please choose another one.", "Ok");
                 return;
             }
-
+            if(!email.Contains("@"))
+            {
+                await DisplayAlert("Invalid Email","Invalid Email","Ok");
+                return;
+            }
             string password = passwordEntry.Text;
             string retypePassword = reTypePasswordEntry.Text;
             bool passwordsTheSame = signInSignUpService.ArePasswordsTheSame(password,retypePassword);
@@ -83,12 +87,14 @@ namespace SignInSignUp
                 return;
             }
 
-            bool signUpSuccess = signInSignUpService.SignUp(firstName, lastName, userName, email, password, retypePassword);
+            bool signUpSuccess = signInSignUpService.SignUp(firstName, lastName, userName, email, password);
 
             if (signUpSuccess )
             {
                 await DisplayAlert("Thank you for signing up.", "Thank you for signing up.", "Ok");
                await Navigation.PushAsync(new MainPage());
+
+
             }
         }
     }
