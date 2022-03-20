@@ -9,7 +9,7 @@ namespace SignInSignUp
         public App()
         {
             InitializeComponent();
-
+            // new navigation page
             MainPage = new NavigationPage( new RegisterPage());
         }
 

@@ -4,11 +4,13 @@
              x:Class="SignInSignUp.MainPage">
 
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text=" Welcome to Movie Info" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        <Frame BackgroundColor="LightGreen" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Movie Info"  HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
         </Frame>
-
- 
+     <SearchBar x:Name = "searchbar" Placeholder="Enter Movie Name" />
+<ListView x:Name="searchresults"><ListView.ItemTemplate><DataTemplate>
+<TextCell Text="{Binding Title}" Detail="" />
+</DataTemplate></ListView.ItemTemplate></ListView>
     </StackLayout>
 
 </ContentPage>

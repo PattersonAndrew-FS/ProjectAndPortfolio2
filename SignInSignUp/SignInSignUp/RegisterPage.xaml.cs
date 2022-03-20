@@ -10,17 +10,18 @@ namespace SignInSignUp
         private SignInSignUpService signInSignUpService;
         public RegisterPage()
         {
+            //set up buttons
             InitializeComponent();
             signInSignUpService = new SignInSignUpService();
             signUp.Clicked += SignUp_Clicked;
             signIn.Clicked += SignIn_Clicked;
         }
-
+        //sing in navigation button
         private async void SignIn_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new LoginPage());
         }
-
+        //conditionals
         private async void SignUp_Clicked(object sender, EventArgs e)
         {
             string userName = userNameEntry.Text;

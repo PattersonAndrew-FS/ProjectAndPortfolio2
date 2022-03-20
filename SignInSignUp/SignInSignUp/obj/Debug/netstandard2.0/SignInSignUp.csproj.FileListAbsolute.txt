@@ -2,7 +2,6 @@
 /Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/SignInSignUp/SignInSignUp/bin/Debug/netstandard2.0/SignInSignUp.dll
 /Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/SignInSignUp/SignInSignUp/bin/Debug/netstandard2.0/ref/SignInSignUp.dll
 /Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/SignInSignUp/SignInSignUp/bin/Debug/netstandard2.0/SignInSignUp.pdb
-/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/SignInSignUp/SignInSignUp/obj/Debug/netstandard2.0/SignInSignUp.csproj.AssemblyReference.cache
 /Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/SignInSignUp/SignInSignUp/obj/Debug/netstandard2.0/SignInSignUp.GeneratedMSBuildEditorConfig.editorconfig
 /Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/SignInSignUp/SignInSignUp/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/SignInSignUp/SignInSignUp/obj/Debug/netstandard2.0/LoginPage.xaml.g.cs
@@ -15,3 +14,5 @@
 /Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/SignInSignUp/SignInSignUp/obj/Debug/netstandard2.0/SignInSignUp.dll
 /Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/SignInSignUp/SignInSignUp/obj/Debug/netstandard2.0/ref/SignInSignUp.dll
 /Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/SignInSignUp/SignInSignUp/obj/Debug/netstandard2.0/SignInSignUp.pdb
+/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/SignInSignUp/SignInSignUp/obj/Debug/netstandard2.0/SignInSignUp.csproj.AssemblyReference.cache
+/Users/andrewpatterson/Desktop/ProjectAndPortfolio2/Patterson_Andrew_API/SignInSignUp/SignInSignUp/obj/Debug/netstandard2.0/MovieDetailPage.xaml.g.cs

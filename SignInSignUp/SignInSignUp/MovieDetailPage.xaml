@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SignInSignUp.MovieDetailPage">
+    <StackLayout>
+        <Frame BackgroundColor="Black" Padding="0" CornerRadius="0">
+            <Label Text="Movie Detail" HorizontalTextAlignment="Center" TextColor="White" FontSize="0"/>
+        </Frame>
+  <Label Text="Title" BackgroundColor="LightGreen"/>
+<Label x:Name ="titleLabel" Text ="" />
+  <Label Text="Year" BackgroundColor="LightGreen" />
+<Label x:Name ="year" Text ="" />
+          <Label Text="Rated" BackgroundColor="LightGreen" />
+<Label x:Name ="rated" Text ="" />
+          <Label Text="Released" BackgroundColor="LightGreen"  />
+<Label x:Name ="released" Text ="" />
+          <Label Text="Runtime" BackgroundColor="LightGreen"/>
+<Label x:Name ="runtime" Text ="" />
+          <Label Text="Genre" BackgroundColor="LightGreen"/>
+<Label x:Name ="genre" Text ="" />
+                  <Label Text="Director" BackgroundColor="LightGreen"/>
+<Label x:Name ="director" Text ="" />
+                  <Label Text="Writer" BackgroundColor="LightGreen"/>
+<Label x:Name ="writer" Text ="" />
+                  <Label Text="Actors" BackgroundColor="LightGreen"/>
+<Label x:Name ="actors" Text ="" />
+                  <Label Text="Plot" BackgroundColor="LightGreen" />
+<Label x:Name ="plot" Text ="" />
+
+    </StackLayout>
+</ContentPage>

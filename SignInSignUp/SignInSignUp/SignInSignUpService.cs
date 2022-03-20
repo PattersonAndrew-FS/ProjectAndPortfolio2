@@ -7,13 +7,16 @@ namespace SignInSignUp
 {
     public class SignInSignUpService
     {
+        // Create new list
         private List<User> users;
+        // create new file path for streamreader
         private string filePath;
         public SignInSignUpService()
         {
             filePath =  Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "temp.txt");
             users = ReadUsersFromFile();
         }
+        //Set up streamreader
         public List<User> ReadUsersFromFile()
         {
             List<User> userList = new List<User>();
@@ -40,6 +43,7 @@ namespace SignInSignUp
             }
             return userList;
         }
+        // Write to file so it can be read
         public void WriteUsersToFile()
         {
             using (StreamWriter streamWriter = File.CreateText(filePath))
@@ -51,6 +55,7 @@ namespace SignInSignUp
                 }
             }
         }
+        // Check against name
         public bool DoesUserNameExist(string userName)
         {
             foreach (var item in users)
@@ -63,6 +68,7 @@ namespace SignInSignUp
             }
             return false;
         }
+        //Check against Email
         public bool DoesEmailExist (string email)
         {
             foreach (var item in users)
@@ -75,10 +81,12 @@ namespace SignInSignUp
             }
             return false;
         }
+        //check against password
         public bool ArePasswordsTheSame(string password, string retypePassword)
         {
             return password.Equals(retypePassword);
         }
+        //credentials
         public bool SignUp(string firstName, string lastName, string userName, string email, string password)
         {
             try
@@ -101,6 +109,7 @@ namespace SignInSignUp
                 return false;
             }
         }
+        //Check for sign in and password
         public bool SignIn(string userName, string password)
         {
             foreach (var item in users)
@@ -112,6 +121,7 @@ namespace SignInSignUp
             }
             return false;
         }
+        //Check username
         public string FindUserName(string password)
         {
             foreach (var item in users)
@@ -124,6 +134,7 @@ namespace SignInSignUp
             }
             return null;
         }
+        //Check for password
         public string FindPassword(string userName)
         {
             foreach (var item in users)
