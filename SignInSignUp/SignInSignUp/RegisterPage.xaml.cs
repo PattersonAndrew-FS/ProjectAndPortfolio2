@@ -22,7 +22,7 @@ namespace SignInSignUp
             signIn.Clicked += SignIn_Clicked;
            
         }
-        //sing in navigation button
+        //singn in navigation button
         private async void SignIn_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new LoginPage());

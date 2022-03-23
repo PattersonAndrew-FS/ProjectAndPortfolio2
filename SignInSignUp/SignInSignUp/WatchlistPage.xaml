@@ -10,9 +10,18 @@
         </Frame>
   
 <ListView x:Name="watchlistView"><ListView.ItemTemplate><DataTemplate>
+<ViewCell >
+<ViewCell.View>
+        <StackLayout Orientation="Horizontal">
+        <Label Text="{Binding Title}" />
+    <Button  Text="Delete" CommandParameter="{Binding Title}" Clicked="DeleteMovie_Clicked" BackgroundColor="LightGreen" />
 
-<TextCell Text="{Binding Title}" Detail="" />
+    </StackLayout>
+</ViewCell.View>
+</ViewCell>
+
+
 </DataTemplate></ListView.ItemTemplate></ListView>
-            <Button x:Name="deleteMovie" Text="Delete" CommandParameter="{Binding Title}"/>
+            
     </StackLayout>
 </ContentPage>

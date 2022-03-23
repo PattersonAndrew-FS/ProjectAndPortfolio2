@@ -40,6 +40,7 @@ namespace SignInSignUp
             
         }
         //Alerts for watchlist
+        
         private async void AddToWatchListBtn_Clicked(object sender, EventArgs e)
         {
             string title = titleLabel.Text;

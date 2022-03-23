@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using Xamarin.Forms;
 /*
@@ -14,14 +15,16 @@ namespace SignInSignUp
     {
         //Create watchlist
         private WatchListService watchListService;
-        private List<WatchlistRow> watchlist;
+      
+        private ObservableCollection<WatchlistRow> watchlistCollection;
         public WatchlistPage()
         {
             InitializeComponent();
             watchListService = new WatchListService();
-            watchlist = watchListService.GetWatchlist();
-            watchlistView.ItemsSource = watchlist;
-            deleteMovie.Clicked += DeleteMovie_Clicked;
+            List<WatchlistRow> watchlist = watchListService.GetWatchlist();
+            watchlistCollection = new ObservableCollection<WatchlistRow>(watchlist);
+            watchlistView.ItemsSource = watchlistCollection;
+          
         }
         //Alerts for watchlist
         private  async void DeleteMovie_Clicked(object sender, EventArgs e)
@@ -32,7 +35,21 @@ namespace SignInSignUp
             bool success = watchListService.RemoveFromWatchlist(movieToDelete);
             if(success )
             {
+                WatchlistRow watchlistRowToDelete = null;
+                foreach (var item in watchlistCollection)
+                {
+                    if(item.Title.Equals(movieToDelete))
+                    {
+                        watchlistRowToDelete = item;
+                    }
+                }
+                if(watchlistRowToDelete !=null)
+                {
+                    
+                    watchlistCollection.Remove(watchlistRowToDelete);
+                }
                 await DisplayAlert("Movie removed from watchlist", "Movie has been removed from watchlist successfully", "Ok");
+                
             }
             else
             {
