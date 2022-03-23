@@ -5,7 +5,7 @@
     x:Class="SignInSignUp.RegisterPage">
       <StackLayout>
         <Frame BackgroundColor="LightGreen" Padding="0" CornerRadius="0">
-            <Label Text=" Sign Up Page" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+            <Label Text=" Sign Up Page" HorizontalTextAlignment="Center" TextColor="Black" FontSize="25"/>
         </Frame>
 
         <Label Text="First Name" />
@@ -20,7 +20,7 @@
 <Entry x:Name="passwordEntry" Placeholder="Password" IsPassword="True" />
            <Label Text="Re-Type Password" />
 <Entry x:Name="reTypePasswordEntry" Placeholder="Re-Type Password" IsPassword="True" />
-<Button x:Name="signUp" Text="Sign Up" BackgroundColor="LightGreen"/>
-<Button x:Name="signIn" Text="Sign In" BackgroundColor="LightGreen" />
+<Button x:Name="signUp" Text="Sign Up" BackgroundColor="LightGreen" FontAttributes="Bold"/>
+<Button x:Name="signIn" Text="Sign In" BackgroundColor="LightGreen" BorderWidth="-1" FontAttributes="Bold" />
     </StackLayout>
 </ContentPage>

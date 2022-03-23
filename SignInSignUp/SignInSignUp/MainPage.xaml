@@ -7,6 +7,7 @@
         <Frame BackgroundColor="LightGreen" Padding="24" CornerRadius="0">
             <Label Text="Welcome to Movie Info"  HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
         </Frame>
+<Button x:Name="viewWatchlistBtn" Text="View Watchlist" BackgroundColor="Green"/>
      <SearchBar x:Name = "searchbar" Placeholder="Enter Movie Name" />
 <ListView x:Name="searchresults"><ListView.ItemTemplate><DataTemplate>
 <TextCell Text="{Binding Title}" Detail="" />

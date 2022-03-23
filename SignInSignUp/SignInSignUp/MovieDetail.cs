@@ -1,6 +1,13 @@
 ﻿using System;
+/*
+ * Andrew Patterson
+ * March 23 2022
+ * 4.1 - Code: Beta
+ * P&P2
+ */
 namespace SignInSignUp
 {
+    //This is what will be displayed
     public class MovieDetail
     {
         public string Title { get; set; }

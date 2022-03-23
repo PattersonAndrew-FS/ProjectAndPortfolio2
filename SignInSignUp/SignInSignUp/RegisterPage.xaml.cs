@@ -1,8 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.IO;
 using Xamarin.Forms;
-
+/*
+ * Andrew Patterson
+ * March 23 2022
+ * 4.1 - Code: Beta
+ * P&P2
+ */
 namespace SignInSignUp
 {
     public partial class RegisterPage : ContentPage
@@ -15,6 +20,7 @@ namespace SignInSignUp
             signInSignUpService = new SignInSignUpService();
             signUp.Clicked += SignUp_Clicked;
             signIn.Clicked += SignIn_Clicked;
+           
         }
         //sing in navigation button
         private async void SignIn_Clicked(object sender, EventArgs e)
@@ -25,6 +31,11 @@ namespace SignInSignUp
         private async void SignUp_Clicked(object sender, EventArgs e)
         {
             string userName = userNameEntry.Text;
+            if(string.IsNullOrWhiteSpace(userName))
+            {
+                await DisplayAlert("Username is empty", "Please enter a username","Ok");
+                return;
+            }
             bool userNameExist = signInSignUpService.DoesUserNameExist(userName);
             if (userNameExist)
             {

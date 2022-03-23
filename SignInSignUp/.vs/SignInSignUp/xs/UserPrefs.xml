@@ -1,26 +1,34 @@
 ﻿<Properties StartupConfiguration="{25F6D6F3-A258-47F3-808B-0367D1DE64B8}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="SignInSignUp.Android/Properties/AssemblyInfo.cs" Line="31" Column="53" />
-      <File FileName="SignInSignUp/ApiConnect.cs" />
-      <File FileName="SignInSignUp/MovieDetail.cs" />
-      <File FileName="SignInSignUp/MainPage.xaml.cs" />
-      <File FileName="SignInSignUp/MainPage.xaml" />
-      <File FileName="SignInSignUp/MovieDetailPage.xaml" />
-      <File FileName="SignInSignUp/MovieDetailPage.xaml.cs" />
-      <File FileName="SignInSignUp/LoginPage.xaml" Line="19" Column="101" />
-      <File FileName="SignInSignUp/App.xaml" Line="1" Column="1" />
-      <File FileName="SignInSignUp/SignInSignUpService.cs" />
-      <File FileName="SignInSignUp/RegisterPage.xaml" />
+      <File FileName="SignInSignUp/MovieDetailPage.xaml.cs" Line="10" Column="4" />
+      <File FileName="SignInSignUp/LoginPage.xaml" Line="1" Column="1" />
+      <File FileName="SignInSignUp/App.xaml" />
+      <File FileName="SignInSignUp/RegisterPage.xaml" Line="1" Column="1" />
+      <File FileName="SignInSignUp/RegisterPage.xaml.cs" Line="10" Column="4" />
+      <File FileName="SignInSignUp/WatchListService.cs" Line="14" Column="31" />
+      <File FileName="SignInSignUp/SignInSignUpService.cs" Line="10" Column="4" />
+      <File FileName="SignInSignUp/WatchlistPage.xaml" />
+      <File FileName="SignInSignUp/WatchlistPage.xaml.cs" Line="26" Column="31" />
+      <File FileName="SignInSignUp/ApiConnect.cs" Line="7" Column="1" />
+      <File FileName="SignInSignUp/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="SignInSignUp/MainPage.xaml.cs" Line="13" Column="4" />
+      <File FileName="SignInSignUp/MovieDetail.cs" Line="7" Column="4" />
+      <File FileName="SignInSignUp/Search.cs" Line="7" Column="4" />
+      <File FileName="SignInSignUp/SearchResult.cs" Line="7" Column="4" />
+      <File FileName="SignInSignUp/User.cs" Line="7" Column="4" />
+      <File FileName="SignInSignUp/WatchlistRow.cs" Line="10" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SignInSignUp" expanded="True">
             <Node name="SignInSignUp" expanded="True">
-              <Node name="App.xaml" selected="True" />
               <Node name="MainPage.xaml" expanded="True" />
               <Node name="MovieDetailPage.xaml" expanded="True" />
+              <Node name="RegisterPage.xaml" expanded="True" />
+              <Node name="WatchlistPage.xaml" expanded="True" />
+              <Node name="WatchListService.cs" selected="True" />
             </Node>
             <Node name="SignInSignUp.Android" expanded="True">
               <Node name="Properties" expanded="True" />

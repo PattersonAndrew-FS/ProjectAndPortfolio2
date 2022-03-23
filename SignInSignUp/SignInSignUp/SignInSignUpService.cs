@@ -2,7 +2,12 @@
 
 using System.Collections.Generic;
 using System.IO;
-
+/*
+ * Andrew Patterson
+ * March 23 2022
+ * 4.1 - Code: Beta
+ * P&P2
+ */
 namespace SignInSignUp
 {
     public class SignInSignUpService
@@ -20,6 +25,10 @@ namespace SignInSignUp
         public List<User> ReadUsersFromFile()
         {
             List<User> userList = new List<User>();
+            if(!File.Exists(filePath))
+            {
+                return userList;
+            }
             using (StreamReader streamReader = File.OpenText(filePath))
             {
                 string row = null;

@@ -4,6 +4,12 @@ using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 using Newtonsoft.Json;
+/*
+ * Andrew Patterson
+ * March 23 2022
+ * 4.1 - Code: Beta
+ * P&P2
+ */
 namespace SignInSignUp
 {
     public class ApiConnect
@@ -11,6 +17,7 @@ namespace SignInSignUp
         public ApiConnect()
         {
         }
+        //API connection
         public List<Search> SearchTitle(string title)
         {
             List<Search> movies = null;
@@ -27,7 +34,7 @@ namespace SignInSignUp
 
 
         }
-
+        //API details
         public MovieDetail GetMovieDetail(string imdbid)
         {
             MovieDetail movieDetail = null;
